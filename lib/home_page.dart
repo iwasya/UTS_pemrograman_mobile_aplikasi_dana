@@ -188,7 +188,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 30),
             Center(
               child: Text(
-                'Welcome to your Digital Wallet!',
+                '',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w400,
