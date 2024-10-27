@@ -9,7 +9,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Ubah background menjadi putih
+      backgroundColor: Colors.white, // background
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         elevation: 0,
@@ -22,10 +22,10 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Tambahkan logo di sini
+              // Logo
               Image.asset(
-                'Dana_logo.png', // Path ke file logo Anda
-                height: 100, // Sesuaikan ukuran logo
+                'Dana_logo.png', //
+                height: 100, //
               ),
               SizedBox(height: 20),
               Text(
@@ -85,7 +85,7 @@ class LoginPage extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white, // Ubah warna teks menjadi putih
+                    color: Colors.white, // U
                   ),
                 ),
               ),

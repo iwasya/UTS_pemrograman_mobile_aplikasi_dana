@@ -8,8 +8,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
   bool _isBalanceVisible = true;
-  final double _balance = 12500.00; // Contoh saldo
-  final String _userName = "Iwan Safii"; // Nama pemilik akun
+  final double _balance = 12500.00;
+  final String _userName = "Iwan Safii";
 
   void _onItemTapped(int index) {
     setState(() {
@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
             TextButton(
               child: Text('Tutup'),
               onPressed: () {
-                Navigator.of(context).pop(); // Tutup dialog
+                Navigator.of(context).pop();
               },
             ),
           ],
@@ -45,16 +45,14 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.blueAccent,
         title: Text(
           'Dana',
-          style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.white), // Mengubah warna menjadi putih
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white), //
         ),
         centerTitle: false,
         elevation: 0,
         actions: [
           IconButton(
             icon: Icon(Icons.notifications),
-            onPressed: _showNotificationDialog, // Panggil metode dialog
+            onPressed: _showNotificationDialog, //
           ),
         ],
       ),
@@ -183,9 +181,9 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 20),
             // Menambahkan Logo Dana
             Image.asset(
-              'Dana_logo.png', // Path ke gambar logo Dana
-              height: 80, // Atur tinggi sesuai kebutuhan
-              fit: BoxFit.contain, // Mengatur tampilan gambar
+              'Dana_logo.png', //
+              height: 80, //
+              fit: BoxFit.contain, //
             ),
             SizedBox(height: 30),
             Center(

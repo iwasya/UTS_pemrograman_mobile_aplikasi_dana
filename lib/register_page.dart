@@ -10,7 +10,7 @@ class RegisterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, // Background tetap putih
+      backgroundColor: Colors.white, // Background
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         elevation: 0,
@@ -24,7 +24,7 @@ class RegisterPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'Dana_logo.png', // Path logo
+                'Dana_logo.png', // logo
                 height: 100,
               ),
               SizedBox(height: 20),
@@ -81,11 +81,11 @@ class RegisterPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(12),
                   ),
                   backgroundColor: Colors.blueAccent,
-                  elevation: 5, // Memberikan efek bayangan halus
+                  elevation: 5,
                   shadowColor: Colors.blueAccent.withOpacity(0.4),
                 ),
                 onPressed: () {
-                  // Logika untuk register
+                  //
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(builder: (context) => HomePage()),

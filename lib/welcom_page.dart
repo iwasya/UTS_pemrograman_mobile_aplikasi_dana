@@ -14,14 +14,11 @@ class WelcomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Menampilkan logo tanpa efek bayangan
                 Image.asset(
-                  'Dana_logo.png', // Path ke file logo
+                  'Dana_logo.png', // logo
                   height: 120,
                 ),
                 SizedBox(height: 40),
-
-                // Teks judul yang lebih besar dan menonjol
                 Text(
                   'Selamat Datang di Aplikasi Kami',
                   style: TextStyle(
@@ -38,10 +35,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                   textAlign: TextAlign.center,
                 ),
-
                 SizedBox(height: 50),
-
-                // Menempatkan tombol Login dan Register bersebelahan
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
