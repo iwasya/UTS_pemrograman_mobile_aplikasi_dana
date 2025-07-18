@@ -1,8 +1,5 @@
 # aplikasi dana
 
-Nama: Iwan Safii
-Nim : 220112008
-Prodi : Sistem Informasi
 
 A new Flutter project.
 
